@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: XlMvERjNDp8CQHk3z61xp0SlfPknH0cbJwIcja/1Iyg/c7oTgS/6EkkvNaL2rRAWVGQxEvWTSo1nMGKkuDUaHFD3DUUeoxnAC9H8X1cETgRO4f0ZgjllZ4ec+drNmeDAGBJ+HjT54KdZ7+7DhHF04YkvKvp4nP4p4uzGssH9fZAQqMrW++VtKdJoTWGB/kk1NnywXXnLXmCBgSCt7MRsHBUsOi7Od0LkEO+bq2XFfKx8f8XN3WwuAmM298geyKW00++Zgo8UcDDFUvBqifScgcLT3k+lMHXso232d9A6Bksorqbae+sP3fa5tOnvyRflyzx4yAw6r10WYOy+xDU3appSNu8jgmtOyRj63pVCOgw7MdclO8+DvJVxTpPMYj91Bw+hIG6Tgx+u+ildTYSWlNLb+pfV40IYBsh1gMlZFYMgZ9JcOaNB42Mrw43m3MeqMxX7hQxGJK5J2zBWhS492CcnBGEVDjke+cPgqAaNcmyI0USScLBzf1OO7pdg+lfMFFd46FjNYjfAlVk56lUf/RLJEhuXoLxxZX0SqttT9gdQjLONOO6QTaFlw5aefqmz3X0pOe1jLxQEJoEJg2XvSjuF38Ac1Q8DD/Z8a4kRMbnYAHIyWQyGYKg/onEgjGCwTNhWQxplUbZiKPLG+L93WzlP/cLXXTHhwOv2YJZz7bA=
+  app: testForTravis
+  on:
+    repo: Korneliu/testForTravis
